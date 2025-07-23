@@ -10,7 +10,9 @@ Dedicate 10 minutes to Part 1 and 5 minutes to Part 2.
 
 1. What is one aspect of data collection or variable creation, in your project, that you think will be particularly important to describe? Why?
 
-YOUR ANSWER HERE
+The data was collected as part of a geospatial and molecular epidemiological study of TB that recruited people with newly-diagnosed TB in Gaborone, the capital city of Botswana, during 2020 - 2024. Participants were recruited from TB clinics, directly observed therapy centers, and HIV care clinics. Participants had a sputum sample collected, along with demographic and clinical data collected through medical record abstraction and a standardized patient interview. Information collected included sex, age, income, CD4+ cell count, and ART history. HIV status from all participants were collected, with HIV testing offered to participants who did not have documented test results or negative test results >12 months from enrollment time. All participants received standard TB treatment, involving at least 6 months of combination anti-TB therapy. PLHIV also received ART as part of routine clinical care for TB/HIV co-infection. TB treatment outcome data were collected after treatment completion through medical records review and/or participant interview.
+
+We also utilized data from the Kopanyo study conducted 2012-2016 to compare TB treatment outcomes for HIV positive patients before and after universal ART access in Botswana. We only utilized observations collected from Gaborone, to match the more recent dataset.......
 
 2. Can you think of a visualization that could support the discussion of this aspect in your methodology section? Describe it
 
