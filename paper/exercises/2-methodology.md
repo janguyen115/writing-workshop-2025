@@ -26,15 +26,21 @@ Focus on your main statistical analysis.
 
 REPLACE THE FOLLOWING EQUATION WITH YOURS.
 
-$$ y = \beta_0 + \beta_1 * \text{Drug1} $$
+$$ 
+\begin{align*}
+y = \beta_0 &+ \beta_1 * (1_\text{CD4 < 200}) \times (1_\text{HIV+ = TRUE}) \\
+&+ \beta_2 * (1_\text{200 < CD4 $\leq$ 500}) \times (1_\text{HIV+ = TRUE}) \\
+&+ \beta_3 * (1_\text{CD4 > 500}) \times (1_\text{HIV+ = TRUE})
+\end{align*}
+$$
 
 - How could you motivate the chosen model?
 
-YOUR ANSWER HERE
+Our model is structured as such so we can analyze how CD4 count can be interpreted in the context of having HIV versus not. We choose to model CD4 as a categorical variable based on boundaries because it is better to have standard 'healthy' levels to look for as a clinician.
 
 - What quantities (parameters) in this model are key to answer your research question? How should they be interpreted?
 
-YOUR ANSWER HERE
+$\beta_3$ is key because it explains that there is a significant difference in our expected treatment outcome depending on if someone has HIV or not, given that they are at a healthy CD4+ count.
 
 ## Part 2
 
